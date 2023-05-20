@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    width: 100%;
+   
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    cursor: default;
+    padding:5px ;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.navbar a {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: 0.3s;
+    padding: 7px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    transition: 0.5s ease;
+    margin-left: 80px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+span {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+#menu-item {
+    font-size: 3rem;
+    color: var(--text-color);
+    display: none;
+}
+
+.home {
+    display: inline-flex;
+}
+
+.home2 {
+    display: inline-block;
+
+
+}
+
+.home-content h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.home-content h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.social-media {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+}
+
+.social-media a:hover {
+
+    color: var(--bg-color);
+    transform: scale(1.2);
+}
+
+.btn {
+
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--main-color);
+    border-radius: 40px;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.1rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    background-color: var(--bg-color);
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.5s ease;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+}
+.c-1{
+    font-size: 37px;
+}
+
+#projects{
+    text-align: center;
+    background-color: var(--second-bg-color);
+}
+#services{
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    
+  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+  grid-gap: 10px;    
+}
+
+
+.s-1 {
+    padding: 6px;
+    border: 2px solid var(--main-color);
+    border-radius: 1.4rem;
+    height: 12rem;
+    color: var(--text-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    column-gap: normal;
+    text-align: center;
+    transition: 0.7s ease;
+    
+    box-shadow: 6px 6px 6px var(--main-color);
+}
+.s-1:hover{
+    transform: scale(1.1);
+    
+}
+
+.contact {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+
+
+}
+
+form {
+    display: inline-block;
+    justify-content: center;
+    margin: 40px;
+}
+
+.input-box {
+    width: 49%;
+    height: 2.2rem;
+    border-radius: 2rem;
+    background-color: var(--second-bg-color);
+    padding: 10px;
+    
+
+}
+
+.input-box1 {
+    line-height: 3rem;
+    
+}
+
+#text-area {
+    border-radius: 1rem;
+    width: 768px;
+    align-items: center;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+    height: 253px;
+    padding: 6px;
+    background-color: var(--second-bg-color);
+}
+#send{
+    margin-left: 40px;
+}
+.copyright{
+    margin: 20px;
+    text-align: center;
+    border: var(--text-color);
+
+}
